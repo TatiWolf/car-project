@@ -1,10 +1,14 @@
 @import 'reset.scss';
 @import 'fonts.scss';
+//@import './assets/font/fonts.scss';
 @import 'vars.scss';
 @import 'basics.scss';
 @import 'main.scss';
 @import '../../templates/header/header';
 
+body {
+  font-family: Gilroy, serif;
+}
 
 .section {
   padding: 20px 90px;
