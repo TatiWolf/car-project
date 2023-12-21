@@ -241,54 +241,33 @@
 
 
 
-h2 {
-  font-size: 45px;
-  font-family: Gilroy ;
-  font-weight: 200;
-  font-style: italic;
+//h2 {
+//  font-size: 45px;
+//  font-weight: 200;
+//  font-style: italic;
+//}
+
+h3 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: -1%;
+  margin-bottom: 10px;
 }
 
-
-
-.paragraph {
-  font-family: PTRootUI, serif;
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-@media (max-width: 1080px) {
-.paragraph {
-  font-size: 23px;
-}
-}
-
-.paragraph-40 {
-  font-family: PTRootUI, serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-
-.paragraph-24 {
-  font-family: PTRootUI, serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.paragraph-18 {
-  font-family: PTRootUI, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-}
 
 .text-white {
   color: #FFFFFF;
 }
 
-.bold {
-  font-weight: 700;
+.paragraph-40 {
+  font-size: 40px;
+  line-height: 56px;
 }
+
+.weight-600 {
+  font-weight: 600;
+}
+
+
+

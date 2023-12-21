@@ -3,43 +3,43 @@
 <head>
   <meta charset='UTF-8'>
   <title>Title</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
 
 <my-header></my-header>
 <div class='main'>
+
+
+
   <section class='section'>
     <div class='container'>
       <div class='angry-grid'>
         <div class='item-0 '>
-          <img class='radius-img' src='./assets/img/Rectangle%20106.png'
-               style='width: 100%; position:absolute; z-index: 0;' alt=''>
-          <div
-            style='z-index: 1;
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    width: 92%;
-    height: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;'>
-            <div class='white-section-slider'></div>
-            <div class='white-section-slider'></div>
-            <div class='white-section-slider'></div>
-            <div class='white-section-slider'></div>
-            <div class='white-section-slider'></div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper radius">
+              <div class="swiper-slide"><img class='img-slider' src='assets/img/Rectangle%20106.png' alt=''></div>
+              <div class="swiper-slide"><img class='img-slider' src='assets/img/Rectangle%20102.png' alt=''></div>
+              <div class="swiper-slide"><img class='img-slider' src='assets/img/Rectangle%20103.png' alt=''></div>
+              <div class="swiper-slide"><img class='img-slider' src='assets/img/Rectangle%20104.png' alt=''></div>
+              <div class="swiper-slide img-slider"><img class='img-slider' src='assets/img/Rectangle%20105.png' alt=''></div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
         <div class='item-1'>
           <img class='' src='./assets/img/logo/white-logo.svg' alt=''>
-          <p style='padding-top: 25px;'>ТВОЙ ПРОВОДНИК В АВТОМОБИЛЬНЫЙ МИР</p>
+          <p style=';' class='mt-25 text-white weight-600 paragraph-40'>ТВОЙ ПРОВОДНИК В АВТОМОБИЛЬНЫЙ МИР</p>
         </div>
         <div class='item-2 '>
-          <img class='radius-img' src='./assets/img/Rectangle%2046.png' style='width: 100%;' alt=''>
+          <img class='radius' src='./assets/img/Rectangle%2046.png' style='width: 100%;' alt=''>
         </div>
         <div class='item-3 '>
-          <img class='radius-img' src='./assets/img/Rectangle%2047.png' style='width: 100%;' alt=''>
+          <img class='radius' src='./assets/img/Rectangle%2047.png' style='width: 100%;' alt=''>
         </div>
       </div>
 
@@ -47,19 +47,18 @@
   </section>
   <section class='section'>
     <div class='container'>
-      <h2 style='margin-top: 70px; max-width: 80%'>Мы поможем тебе узнать больше о машинах
-        и чувствовать себя <span class='text-wrap'>спокойно и уверенно </span> на дороге </h2>
+      <h2 style='' class='container__title'>Мы поможем тебе узнать больше о машинах
+        и чувствовать себя <span class='text-wrap'>спокойно&nbsp;и&nbsp;уверенно</span> на дороге </h2>
       <div class='angry-grid1'>
-        <div class='item-01'>
-          <div>
-            <img style='width: 100%;' src='./assets/img/Mask%20group-1.png' alt=''>
-          </div>
+        <div class='item-01 radius'>
+          <img style='width: 100%; height: 100%;' src='./assets/img/Mask%20group-1.png' alt=''>
         </div>
-        <div class='item-11'>
+        <div class='item-11 radius'>
           <div>
-            <img style='width: 100%;' class='' src='./assets/img/Rectangle%2030.png' alt=''>
+            <img style='width: 100%; border-radius: 20px 20px 0 0 ' class='' src='./assets/img/Rectangle%2030.png'
+                 alt=''>
           </div>
-          <div>
+          <div class='text__block-link'>
             <h3>
               что делать,
               если примерзли
@@ -70,8 +69,8 @@
               от лобового стекла...</p>
           </div>
         </div>
-        <div class='item-21'>
-          <div>
+        <div class='item-21 column radius'>
+          <div class='text__block-link'>
             <h3>
               как избавиться
               от запотевания
@@ -80,7 +79,8 @@
             <p>Сразу скажем: иногда запотевание вызвано техническими проблемами...</p>
           </div>
           <div>
-            <img style='width: 100%;' class='' src='./assets/img/Rectangle%2031.png' alt=''>
+            <img style='width: 100%; height: 100%; border-radius: 0 0 20px 20px' class=''
+                 src='./assets/img/Rectangle%2031.png' alt=''>
           </div>
         </div>
       </div>
@@ -88,12 +88,13 @@
   </section>
   <section class='section'>
     <div class='container'>
-      <h2 style='margin-top: 70px; max-width: 80%'>Узнай, как правильно вести себя в <span class='text-wrap'>чрезвычайных ситуациях</span>
+      <h2 class='container__title'>Узнай, как правильно вести себя в <span
+        class='text-wrap'>чрезвычайных&nbsp;ситуациях</span>
         и оказывать
         неотложную <span class='text-wrap'>помощь</span> себе и окружающим</h2>
       <div class='angry-grid2'>
-        <div class='item-22'>
-          <div>
+        <div class='item-22 radius column'>
+          <div class='text__block-link'>
             <h3>
               что делать
               при дтп?
@@ -102,15 +103,14 @@
               ДТП, кого и как вызывать
               расскажем в статье...</p>
           </div>
-          <div>
-            <img style='width: 100%;' class='' src='./assets/img/Rectangle%2035.png' alt=''>
-          </div>
+          <img style='width: 100%; border-radius: 0 0 20px 20px' class='' src='./assets/img/Rectangle%2035.png' alt=''>
         </div>
-        <div class='item-12'>
+        <div class='item-12 radius'>
           <div>
-            <img style='width: 100%;' class='' src='./assets/img/Rectangle%2033.png' alt=''>
+            <img style='width: 100%; border-radius: 20px 20px 0 0 ' class='' src='./assets/img/Rectangle%2033.png'
+                 alt=''>
           </div>
-          <div>
+          <div class='text__block-link'>
             <h3>
               первая помощь:
               как помочь
@@ -121,77 +121,77 @@
               и оказывать помощь...</p>
           </div>
         </div>
-        <div class='item-02'>
-          <div>
-            <img style='width: 100%;' src='./assets/img/Mask%20group-2.png' alt=''>
+        <div class='item-02 radius'>
+          <img style='width: 100%; height: 100%;' src='./assets/img/Mask%20group-2.png' alt=''>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class='section'>
+    <div class='container'>
+      <h2 class='container__title'>Здесь ты найдешь всю необходимую информацию о процессе получения
+        водительского удостоверения, советы по выбору <span class='text-wrap'>первого&nbsp;автомобиля</span> и многое
+        другое
+      </h2>
+      <div class='angry-grid1'>
+        <div class='item-01 radius'>
+          <img style='width: 100%; height: 100%;' src='./assets/img/Mask%20group.png' alt=''>
+        </div>
+        <div class='item-11 radius column'>
+          <div class='text__block-link '>
+            <h3>
+              на что обратить
+              внимание при выборе
+              первого авто
+            </h3>
+            <p>Рассмотрим основные
+              характеристики, на которые
+              стоит обратить внимание...</p>
+          </div>
+          <img style='width: 100%; height: 100%; border-radius: 0 0 20px 20px ' class=''
+               src='./assets/img/Rectangle%2039.png' alt=''>
+        </div>
+        <div class='item-21 radius'>
+          <img style='width: 100%; border-radius: 20px 20px 0 0 ' class='' src='./assets/img/Rectangle%2038.png' alt=''>
+          <div class='text__block-link '>
+            <h3>
+              Как подготовиться
+              к экзамену и сдать
+              с первого раза?
+            </h3>
+            <p>Трепетный вопрос
+              для каджого будущего автомобилиста...</p>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section class='section'>
+    <div class='container'>
+      <div class='find-new-car'>
+        <div class='find-new-car__text'>
+          <h3>Ты в поисках первого авто?</h3>
+          <p>Пройди наш краткий опрос, ответив на вопросы о вашем стиле жизни, опыте вождения, бюджете и других важных
+            критериях.</p>
+          <p>На основе твоих ответов мы предоставим персонализированные рекомендации, отвечающие твоим запросам и
+            хотелкам.</p>
+          <button class='button'>Пройти тест</button>
+        </div>
+        <div class=' radius'>
+          <img style='
+            width: 100%;
+            height: 100%;
+            border-radius: 26px;' class='find-new-car__img' src='./assets/img/Mask%20groupeeeee.png'
+               alt=''>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
-<section class='section'>
-  <div class='container'>
-    <h2 style='margin-top: 70px; max-width: 80%'>Здесь ты найдешь всю необходимую информацию о процессе получения
-      водительского удостоверения, советы по выбору <span class='text-wrap'>первого автомобиля</span> и многое другое
-    </h2>
-    <div class='angry-grid1'>
-      <div class='item-01'>
-        <div>
-          <img style='width: 100%;' src='./assets/img/Mask%20group.png' alt=''>
-        </div>
-      </div>
-      <div class='item-11'>
-        <div>
-          <h3>
-            на что обратить
-            внимание при выборе
-            первого авто
-          </h3>
-          <p>Рассмотрим основные
-            характеристики, на которые
-            стоит обратить внимание...</p>
-        </div>
-        <div>
-          <img style='width: 100%;' class='' src='./assets/img/Rectangle%2039.png' alt=''>
-        </div>
-      </div>
-      <div class='item-21'>
-        <div>
-          <img style='width: 100%;' class='' src='./assets/img/Rectangle%2038.png' alt=''>
-        </div>
-        <div>
-          <h3>
-            Как подготовиться
-            к экзамену и сдать
-            с первого раза?
-          </h3>
-          <p>Трепетный вопрос
-            для каджого будущего автомобилиста...</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class='section'>
-  <div class='container'>
-    <div class='find-new-car'>
-      <div class='find-new-car__text'>
-        <h3>Ты в поисках первого авто?</h3>
-        <p>Пройди наш краткий опрос, ответив на вопросы о вашем стиле жизни, опыте вождения, бюджете и других важных
-          критериях.</p>
-        <p>На основе твоих ответов мы предоставим персонализированные рекомендации, отвечающие твоим запросам и
-          хотелкам.</p>
-        <button class='button'>Пройти тест</button>
-      </div>
-      <div class='find-new-car__img'>
-        <div>
-          <img style='width: 100%; background-color: #BBE2FF' class='' src='./assets/img/Mask%20groupeeeee.png' alt=''>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <my-footer></my-footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src='slider.js'></script>
 </body>
 </html>

@@ -16,8 +16,8 @@
   //display: flex;
 }
 
-.radius-img {
- border-radius: 20px;
+.radius {
+ border-radius: $main-radius;
 }
 
 .header-links__element {
@@ -46,7 +46,7 @@
 
 }
 .item-1 {
-  padding: 50px;
+  padding: 30px;
   border-radius: 20px;
   background: rgba(29, 36, 42, 1);
   grid-row-start: 2;
@@ -87,8 +87,9 @@
 }
 
 .text-wrap {
-  padding: 10px 15px;
+  padding: 0 15px;
   border-radius: 100px;
+
   background: #BBE2FF;
 }
 
@@ -200,3 +201,51 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.find-new-car__img {
+  background-color: #BBE2FF
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 100px;
+  height: 4px;
+  border-radius: 100px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(187, 226, 255, 1);
+  height: 8px;
+}
+
+
