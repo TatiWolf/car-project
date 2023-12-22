@@ -291,6 +291,12 @@
   width: fit-content;
   font-size: 24px;
   line-height: 34px;
+  cursor: default; /* Сначала устанавливаем значение по умолчанию */
+
+}
+
+.black-button-link {
+  cursor: pointer;
 }
 
 .mt-20 {
