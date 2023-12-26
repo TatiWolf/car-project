@@ -4,17 +4,17 @@ export class MyFrame extends HTMLElement {
       `<section class="section">
   <div class='container'>
   <header class="header">
-    <a href=''>
+    <a  href='index.html'>
       <img src="../../assets/img/logo/dark-logo.svg" alt="">
     </a>
     <div class='header-links'>
-      <a href='' class='header-links__element'>
+      <a href='template-1.html' class='header-links__element'>
         sos
       </a>
-      <a href='' class='header-links__element'>
+      <a href='template-2.html' id=''  class='header-links__element'>
         лайфхаки
       </a>
-      <a href='' class='header-links__element'>
+      <a href='template-3.html' class='header-links__element'>
         для будущих автомобилистов
       </a>
     </div>

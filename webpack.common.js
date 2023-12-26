@@ -105,10 +105,18 @@ module.exports = {
     }),
 
     // Section
-    // new HtmlWebpackPlugin({
-    //   template: './src/sos.html',
-    //   filename: './sos.html'
-    // }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/template-1/template-1.html',
+      filename: './template-1.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/template-2/template-2.html',
+      filename: './template-2.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/template-3/template-3.html',
+      filename: './template-3.html'
+    }),
     //
     // new HtmlWebpackPlugin({
     //   template: './src/for-future.html',

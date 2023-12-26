@@ -89,10 +89,10 @@
 }
 
 .text-wrap {
-  padding: 0 15px;
+  padding: 10px 15px;
   border-radius: 100px;
-
   background: #BBE2FF;
+  width: fit-content;
 }
 
 .angry-grid1 {
@@ -292,7 +292,6 @@
   font-size: 24px;
   line-height: 34px;
   cursor: default; /* Сначала устанавливаем значение по умолчанию */
-
 }
 
 .black-button-link {
@@ -317,4 +316,19 @@
 
 .mr-20 {
   margin-right: 20px;
+}
+
+.button-black-border {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #000000;
+  width: fit-content;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+
+.button-black-border > *:first-of-type {
+  margin-right: 10px;
 }
