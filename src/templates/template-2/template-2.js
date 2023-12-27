@@ -7,10 +7,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
   document.getElementById('title1').textContent = data.title1;
   document.getElementById('subtitle1').textContent = data.subtitle1;
   document.getElementById('paragraph1').textContent = data.paragraph1;
-  // document.getElementById('img1').src = data.img1;
+
   document.getElementById('title2').textContent = data.title2;
   document.getElementById('points1').innerHTML = data.points1.map(point => `
-<div style='display: flex; align-items: center;' class='mt-20'><img class='mr-20' src='../../assets/img/icon/circle.svg' alt=''><li > ${point}</li></div>
+<div style='display: flex; align-items: center;' class='mt-20'>
+<img class='mr-20' src='../../assets/img/icon/circle.svg' alt=''>
+<li > ${point}</li>
+</div>
 `).join('');
   document.getElementById('title3').textContent = data.title3;
   document.getElementById('subtitle2').textContent = data.subtitle2;
